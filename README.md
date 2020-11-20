@@ -25,4 +25,4 @@ Our mission is to help the different actors to optimize their deployments regard
 
 ## Data model
 
-[Here]('./../docs/data-model.md')
+[Here]('./docs/data-model.md')
