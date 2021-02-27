@@ -1,8 +1,9 @@
 # Trashmaster Knowledge Graph Lab <!-- omit in toc -->
 
 - [Problem statements](#problem-statements)
-- [Install and run](#install-and-run)
-- [What's inside the compose file?](#whats-inside-the-compose-file)
+- [Play](#play)
+  - [Choose your environment](#choose-your-environment)
+  - [Run](#run)
 - [Data model](#data-model)
 - [User stories](#user-stories)
   - [Trash Epic](#trash-epic)
@@ -19,12 +20,16 @@ Our mission is to help the different actors to optimize their deployments regard
 - Illegal trash dumping predication: **WHEN** and **WHERE** will be dumped to most trashes.
 - Route optimization: finding the shortest path to pick-up the trashes.
 
-## Install and run
+## Play
+
+### Choose your environment
+
+* [Oracle](./infra/oracle/docker-compose.yml)
+* [Postgre](./infra/postgre/docker-compose.yml)
+
+### Run
 
 `docker-compose up`
-
-## What's inside the compose file?
-- pg + pgAdmin
 
 **Coming soon**
 - Data generation
